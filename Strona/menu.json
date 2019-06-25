@@ -1,26 +1,20 @@
 {
     "Aktualności": "/",
+    "30-lecie": {
+        "Ogólne informacje": "/30-lecie",
+        "Patroni i Sponsorzy": "/30-lecie/patroni-i-sponsorzy"
+    },
     "O nas": {
         "Kim jesteśmy?": "/o-nas/kim-jestesmy",
         "Patron": "/o-nas/patron",
         "Historia": "/o-nas/historia",
-        "Nasz opiekun": "/o-nas/nasz-opiekun",
+        "Zarząd główny": "/kontakt/zarzad-glowny",
         "Sekcje i zespoły": "/o-nas/sekcje",
         "Koła terenowe": "/kontakt/kola-terenowe",
         "FAQ": "/o-nas/faq",
-        "Ciekawostki": "/o-nas/ciekawostki",
-        "Multimedia": "/o-nas/multimedia"
+        "Ciekawostki": "/o-nas/ciekawostki"
     },
     "Dołącz do nas!": "/o-nas/dolacz-do-nas",
     "Wesprzyj nas": "/wesprzyj-nas",
-    "Kontakt": {
-    	"Dane adresowe": "/kontakt",
-        "Zarząd główny": "/kontakt/zarzad-glowny",
-        "Rzecznik prasowy": "/kontakt/rzecznik-prasowy",
-        "Sekcje i zespoły": "/o-nas/sekcje",
-        "Duszpasterz": "/o-nas/nasz-opiekun",
-        "Komisja rewizyjna": "/kontakt/komisja-rewizyjna",
-        "Strona": "/kontakt/strona",
-        "Dla mediów": "/kontakt/dla-mediow"
-    }
+    "Kontakt":  "/kontakt"
 }
