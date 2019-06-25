@@ -20,5 +20,6 @@ Zerknijcie na te parę sekund zapowiedzi filmowej:
 T.S. Eliot wybitny noblista epoki międzywojennej napisał wiersz, który do dziś emanuje mocą.
 Po przejściu przez wystawę, zobaczeniu współczesnych fotografii i obrazów można zrozumieć, że ta wystawa i ten wiersz jest o moim i o TWOIM ŻYCIU, o naszej wędrówce.
 
+<![endif]-->
 
 <!--{{json:{"created_date":"2013-05-08 20:59:32","publish_down":"0000-00-00 00:00:00","id":"1014"}}}-->
