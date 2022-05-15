@@ -2,6 +2,7 @@
     remote = storage
     autostage = true
 ['remote "storage"']
+    # s3://dvc-solideo.pl-v5/ is managed by Jędrzej Bogumił Lewandowski (https://jblewandowski.com) <jedrzejblew@gmail.com>
     url = s3://dvc-solideo.pl-v5/
     configpath = aws.config
     credentialpath = aws.credentials
