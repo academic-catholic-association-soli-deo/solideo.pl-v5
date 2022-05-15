@@ -5,7 +5,6 @@ class CachedFilesystem {
     
     public static function file_get_contents($path) {
         if(!file_exists($path)) return null;
-        
         $fileContents = CacheManager::getMyCache($path, self::$secret, 3600*2, 4000);
         if($fileContents === null) {
             $fileContents = file_get_contents($path);

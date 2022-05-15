@@ -46,6 +46,7 @@ class CacheManager {
             if(isset($_GET['cacheDebug'])) echo "<!-- lock failed -->\n";
             return null;
         }
+        return null;
         $shm = shm_attach($key, $dataAllocationSize);
         if($shm === null) {
             if(isset($_GET['cacheDebug'])) echo "<!-- shm_attach failed -->\n";
@@ -130,7 +131,8 @@ class CacheManager {
         if($lock === false) {
             if(isset($_GET['cacheDebug'])) echo "<!-- lock failed-->\n";
             return false;
-        }
+        }        
+        return null;
         $shm = shm_attach($key, $dataAllocationSize);
         if($shm === null) {
             if(isset($_GET['cacheDebug'])) echo "<!-- shm_attach failed -->\n";
@@ -161,6 +163,7 @@ class CacheManager {
             if(isset($_GET['cacheDebug'])) echo "<!-- lock failed -->\n";
             return false;
         }
+        return null;
         $shm = shm_attach($key);
         if($shm === null) {
             if(isset($_GET['cacheDebug']))  echo "<!-- shm_attach failed -->\n";
@@ -172,4 +175,4 @@ class CacheManager {
         self::unlock($lock);
         return true;    
     }
-}
+}					

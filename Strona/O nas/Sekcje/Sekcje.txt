@@ -19,9 +19,3 @@ stoi Szef Sekcji. Sekcje tworzy, a Szefów Sekcji powołuje Prezes Stowarzyszeni
  - [Gabinet](/o-nas/sekcje/gabinet)
 
 Zespoły to najczęściej niewielkie jednostki działające w ramach poszczególnych Sekcji. Zajmują się one określonymi zadaniami dotyczącymi dużych dziedzin naszej działalności. Niektóre Sekcje mogą opierać się wyłącznie na funkcjonowaniu Zespołów (jak np. Gabinet), a do innych Zespoły są podłączone niezależnie poza właściwą działalnością Sekcji (np. Sekcja Integracyjna).
-
-## Linki
-Informacje o poszczególnych sekcjach:
- - [Sekcja Integracyjna](/o-nas/sekcje/sekcja-integracyjna)
- - [Sekcja Formacyjna](/o-nas/sekcje/sekcja-formacyjna)
- - [Gabinet](/o-nas/sekcje/gabinet)
