@@ -8,8 +8,8 @@ BW_SECRET_NAME="solideo_records_aws_credentials"
 # bw (bitwarden) installation: `npm install -g @bitwarden/cli`
 # If bw command is unavailable you may need to select correct version of nodejs
 CREDENTIALS="$(bw get item "${BW_SECRET_NAME}")"
-ACCESSKEYID=$(echo "${CREDENTIALS}" | jq '.fields[] | select(.name | contains("accesskeyid")) | .value')
-SECRETACCESSKEY=$(echo "${CREDENTIALS}" | jq '.fields[] | select(.name | contains("secretaccesskey")) | .value')
+ACCESSKEYID=$(echo "${CREDENTIALS}" | jq --raw-output '.fields[] | select(.name | contains("accesskeyid")) | .value')
+SECRETACCESSKEY=$(echo "${CREDENTIALS}" | jq --raw-output '.fields[] | select(.name | contains("secretaccesskey")) | .value')
 
 echo "[default] 
 aws_access_key_id=${ACCESSKEYID} 
